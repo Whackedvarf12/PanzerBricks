@@ -1,0 +1,151 @@
+#gamecan{
+    margin: 0px auto;
+    width:50em;
+    display:block;
+    margin-top: 50px;
+    border:0.2em solid #351915;
+}
+#menu{
+
+    text-align: center;
+    width: 100%;
+    height:100%;
+}
+#button{
+    margin: auto;
+    margin-top: 1em;
+    border:0.1em solid #351915;
+    height:2em;
+    width:5em;
+    background-color: #866146;
+    font-size: 3em;
+    font-family: rusky;
+    box-shadow: 0 0.2em;
+}
+#wrapper{
+    height:27em;
+    width:20em;
+    margin:auto;
+    margin-top: 10em;
+    background-color: white;
+    display: none;
+    box-shadow: 0.5em 1em;
+}
+body{
+    background-image:url(slike/menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#title{
+    border:0.1em solid #351915;
+    width:20em;
+    margin:auto;
+    margin-top:7em;
+    background-color: #866146;
+    font-size: 3em;
+    font-family: rusky;
+}
+@font-face {
+    font-family: rusky;
+    src: url(fonti/Soviet2.ttf);
+  }
+#button:active {
+  box-shadow: 0 0.1em;
+  transform: translateY(4px);
+}
+#button:focus {
+    outline:none;
+}
+p{
+    text-align: left;
+    font-family: rusky;
+}
+#continue{
+    margin: auto;
+    margin-top: 1em;
+    border:0.1em solid #351915;
+    height:2em;
+    width:5em;
+    background-color: #866146;
+    font-size: 3em;
+    font-family: rusky;
+    box-shadow: 0 0.2em;
+    display: none;
+}
+#continue:focus{
+    outline:none;
+}
+#continue:active{
+    box-shadow: 0 0.1em;
+    transform: translateY(4px);
+}
+#wrapperend{
+    height:10em;
+    width:20em;
+    margin:auto;
+    margin-top: 10em;
+    background-color: white;
+    box-shadow: 0.5em 1em;
+    display: none;
+}
+#endbutton{
+    margin: auto;
+    margin-top: 1em;
+    border:0.1em solid #351915;
+    height:2em;
+    width:5em;
+    background-color: #866146;
+    font-size: 3em;
+    font-family: rusky;
+    box-shadow: 0 0.2em;
+    display: none;
+}
+#endbutton:active {
+    box-shadow: 0 0.1em;
+    transform: translateY(4px);
+}
+#endbutton:focus {
+    outline:none;
+}
+#scorebutton{
+    margin: auto;
+    margin-top: 1em;
+    border:0.1em solid #351915;
+    height:2em;
+    width:5em;
+    background-color: #866146;
+    font-size: 3em;
+    font-family: rusky;
+    box-shadow: 0 0.2em;
+    display: none;
+}
+#scorebutton:active {
+    box-shadow: 0 0.1em;
+    transform: translateY(4px);
+}
+#scorebutton:focus {
+    outline:none;
+}
+#can{
+    margin: auto;
+    display:none;
+    background-image: url("slike/raseniai.png");
+    background-size: contain;
+    background-repeat: repeat;
+    width:50.2em;
+    height:35.9em;
+}
+#musicbutton{
+    z-index: 2;
+    position: relative;
+    margin-left: 0em;
+    width:15em;
+    height:10em;
+    background-image: url("slike/nomusic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: #351915;
+}
+#musicbutton:focus {
+    outline:none;
+}
