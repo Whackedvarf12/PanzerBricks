@@ -21,6 +21,7 @@
     font-size: 3em;
     font-family: rusky;
     box-shadow: 0 0.2em;
+    user-select: none;
 }
 #wrapper{
     height:27em;
@@ -44,6 +45,7 @@ body{
     background-color: #866146;
     font-size: 3em;
     font-family: rusky;
+    user-select: none;
 }
 @font-face {
     font-family: rusky;
@@ -59,6 +61,7 @@ body{
 p{
     text-align: left;
     font-family: rusky;
+    user-select: none;
 }
 #continue{
     margin: auto;
@@ -71,6 +74,7 @@ p{
     font-family: rusky;
     box-shadow: 0 0.2em;
     display: none;
+    user-select: none;
 }
 #continue:focus{
     outline:none;
@@ -99,6 +103,7 @@ p{
     font-family: rusky;
     box-shadow: 0 0.2em;
     display: none;
+    user-select: none;
 }
 #endbutton:active {
     box-shadow: 0 0.1em;
@@ -118,6 +123,7 @@ p{
     font-family: rusky;
     box-shadow: 0 0.2em;
     display: none;
+    user-select: none;
 }
 #scorebutton:active {
     box-shadow: 0 0.1em;
@@ -145,6 +151,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     border-color: #351915;
+    user-select: none;
 }
 #musicbutton:focus {
     outline:none;
